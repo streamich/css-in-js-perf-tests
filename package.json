@@ -58,7 +58,7 @@
     "styletron-server": "^2.3.0",
     "styletron-utils": "^2.3.0",
     "wd": "^1.1.1",
-    "webpack": "^1.13.3"
+    "webpack": "^2.2.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",
