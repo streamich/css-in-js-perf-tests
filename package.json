@@ -33,7 +33,7 @@
   "homepage": "https://github.com/PepijnSenders/css-in-js-perf-tests",
   "dependencies": {
     "aphrodite": "^1.1.0",
-    "babel-loader": "^6.2.7",
+    "babel-loader": "^7.1.0",
     "beautify-benchmark": "^0.2.4",
     "benchmark": "^2.1.2",
     "cli-table": "^0.3.1",
