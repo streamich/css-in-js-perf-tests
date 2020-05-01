@@ -18,7 +18,9 @@
     "view:style-overload-test": "node lib/style-overload-test/view.js",
     "view:classes-overload-test": "node lib/classes-overload-test/view.js",
     "view": "rimraf output/ && npm run view:simple-test && npm run view:nested-test && npm run view:style-overload-test && npm run view:classes-overload-test",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -58,7 +60,8 @@
     "styletron-server": "^2.3.0",
     "styletron-utils": "^2.3.0",
     "wd": "^1.1.1",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -71,5 +74,6 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.7.1"
-  }
+  },
+  "snyk": true
 }
